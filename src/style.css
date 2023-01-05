@@ -40,3 +40,6 @@ body{
     background-color: rgb(85, 81, 81);
     box-shadow: 0 0  1rem rgb(243, 239, 239);
 }
+.time{
+    color: #fff;
+}
