@@ -1,8 +1,42 @@
-.btn{
-    width: 2em;
-    height: 11em;
-}
 
 body{
-    background-color: red;
+    background-color: black;
+}
+
+
+
+
+.container{
+    margin: 10vw auto;
+    background-color: rgb(183, 184, 184);
+    width: 30rem;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 0 0.5rem white;
+
+
+}
+
+.count{
+    font-size: 4rem;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 10em;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 2em rgb(248, 247, 247);
+   
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(85, 81, 81);
+    box-shadow: 0 0  1rem rgb(243, 239, 239);
 }

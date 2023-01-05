@@ -4,6 +4,7 @@ import React , {useState} from "react";
 
 export default function Counter(){
     const [count,setCount] = useState(0);
+    
     function handleIncrement(){
         setCount(count+1)
     }
@@ -15,13 +16,15 @@ export default function Counter(){
     }
    
     return(
-        <div>
+        <div className="container">
             <div>
-                <p class="count">{count}</p>
+                <p className="count">{count}</p>
             </div>
-            <button onClick = {handleIncrement} class="btn">Increment</button>
-            <button onClick = {handleDecrement} class="btn">Decrement</button>
-            <button onClick = {handleReset} class="btn">Reset</button>
+            <div className="button">
+            <button onClick = {handleIncrement} className="btn">Increment</button>
+            <button onClick = {handleDecrement} className="btn">Decrement</button>
+            <button onClick = {handleReset} className="btn">Reset</button>
+            </div>
         </div>
     )
 }
